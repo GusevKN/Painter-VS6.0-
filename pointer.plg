@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pointer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Single\LOCALS~1\Temp\RSP44D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/pointer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"L:\мои документы\C++\my projects 6.0\объектно ориентированные программы Холзнер С\pointer\pointerView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Single\LOCALS~1\Temp\RSP44D.tmp" 
+Creating temporary file "C:\DOCUME~1\Single\LOCALS~1\Temp\RSP44E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/pointer.pdb" /debug /machine:I386 /out:"Debug/pointer.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\pointer.obj"
+".\Debug\pointerDoc.obj"
+".\Debug\pointerView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\pointer.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Single\LOCALS~1\Temp\RSP44E.tmp"
+<h3>Output Window</h3>
+Compiling...
+pointerView.cpp
+Linking...
+LINK : LNK6004: Debug/pointer.exe not found or not built by the last incremental link; performing full link
+
+
+
+<h3>Results</h3>
+pointer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
